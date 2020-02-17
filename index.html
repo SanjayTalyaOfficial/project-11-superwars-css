@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <style>
+      .cen{
+          display: grid;
+          grid-template-columns: 2fr 2fr 1fr 1fr 1fr 2fr 2fr;
+          
+          margin-top: auto;
+          margin-bottom: auto;
+          margin-left: 5em;
+          margin-right: 5em;
+          align-content: space-around;
+          float: left;
+          width: 25%;
+          padding: 0 10px;
+          text-align: center;
+          }
+
+      
+      #num1{
+        padding: 10px 1px 30px 200px;
+          }
+      #num_middle{
+        padding: 10px 30px 30px 30px;
+          }
+      #num2{
+        padding: 10px 300px 30px 1px;
+          }
+      #border_reqd{
+        border-style: solid;
+          }
+  </style>
+  <body>
+    <div class="services">
+      <h1><center>SuperWars</center></h1>
+      <div class="cen">
+        <div class="service left" id="border_reqd">
+          <img src="hero-1.png">
+          <h2>Hero 1</h2>
+          <p></p>
+        </div>
+
+        <div class="service left" id="border_reqd">
+            <img src="hero-2.png">
+            <h2>Hero 2</h2>
+          <p></p>
+        </div>
+
+        <div class="service" id="num1">
+            <h1>5</h1>
+        </div>
+
+        <div class="service" id="num_middle">
+            <h1>-</h1>
+        </div>
+
+        <div class="service" id="num2">
+            <h1>2</h1>
+        </div>
+
+        <div class="service right" id="border_reqd">
+            <img src="villian 1.png">
+            <h2>villian 1</h2>
+        </div>
+
+        <div class="service right" id="border_reqd">
+            <img src="villian-2.png">
+            <h2>Villian 2</h2>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
